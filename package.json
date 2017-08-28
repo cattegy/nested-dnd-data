@@ -1,0 +1,30 @@
+{
+	"name": "nested-dnd-data",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"debug": "node --inspect --debug-brk index.js srd-items"
+	},
+	"author": "",
+	"license": "ISC",
+	"bin": {
+		"run-import": "./index.js"
+	},
+	"dependencies": {
+		"ajv": "^5.2.2",
+		"concat-stream": "^1.6.0",
+		"font-awesome": "^4.7.0",
+		"game-icons-font": "^0.1.2",
+		"glob": "^7.1.2",
+		"jquery": "^3.2.1",
+		"jsdom": "^11.1.0",
+		"mkdirp": "^0.5.1",
+		"pdf2json": "^1.1.7",
+		"vm": "^0.1.0",
+		"xmlhttprequest": "^1.8.0"
+	},
+	"devDependencies": {
+		"5e-json-schema": "git+https://github.com/cattegy/5e-json-schema.git"
+	}
+}

@@ -1,0 +1,49 @@
+{
+  "ua-mystic": [
+    {
+      "in": "UAMystic3.pdf",
+      "convert": "pdf2text",
+      "out": "./data/source/ua/"
+    }
+  ],
+  "roll20srd": [
+    {
+      "in": null,
+      "convert": "srd-spells",
+      "out": "./data/srd/"
+    },
+    {
+      "in": null,
+      "convert": "srd-monsters",
+      "out": "./data/srd/"
+    },
+    {
+      "in": null,
+      "convert": "srd-items",
+      "out": "./data/srd/"
+    }
+  ],
+  "srd-items":[
+  	 {
+      "in": null,
+      "convert": "srd-items",
+      "out": "./data/srd/"
+    }
+  ],
+  "nested":[
+  	{
+  		"in": "orteil.dashnet.org/nestedscript.js",
+  		"convert": "nested",
+  		"out": "./data/packs/"
+  	}
+  ],
+  "gameicons":[
+  	{
+  		"in": ["node_modules/game-icons-font/src/gameiconsfont/css/game-icons-font.min.css",
+  			"node_modules/font-awesome/scss/_icons.scss"
+  		],
+  		"convert": "gameicons",
+  		"out": "./data/packs/"
+  	}
+  ]
+}
